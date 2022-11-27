@@ -3,7 +3,7 @@
     background-color: #ffffff;
 }
 
-ul{
+.list{
     list-style: none;;
 }
 /* цвет оcновного текста #000000 */
@@ -17,5 +17,25 @@ ul{
 /* цвет вторичного фона #f5f5f5 */
 
 .logo{
+    color: #000000;
+}
+
+.logo:hover {
+color: #18A0FB;
+}
+
+
+/* Site nav */
+
+.site-nav .link {
+    color: #18A0FB;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #000000;
+}
+
+.section-title {
     color: #000000;
 }
